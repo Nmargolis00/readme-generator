@@ -35,22 +35,19 @@ ${renderLicenseSection(data.license)}
 ${renderLicenseBadge(data.license)}
         
 
-
-
-
 ## Description
 
  ${data.description}
 
  ## Table of Contents
 
-1. ${renderLicenseLink(data.license)}
-2. [Descriptiom](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Tests](#tests)
-5. [How to Contribute](#how-to-contribute)
-6. [Questions](#questions)
+* ${renderLicenseLink(data.license)}
+* [Descriptiom](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [How to Contribute](#how-to-contribute)
+* [Questions](#questions)
 
 ## Installation
 
