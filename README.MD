@@ -1,41 +1,47 @@
 # README Generator
+        
+ https://img.shields.io/badge/license-$%7Blicense%7D-blue.svg
+
+ ## License
+        This project is licensed under:MIT
 
 ## Description
 
-### I used Node.js and JavaScript to create this project
+ I used Nodejs and JavaScript to create a ReadMe file
 
-## Table of Contents
+ ## Table of Contents
 
-* [Table Of Contents](#tableOfContents)
+1. [License](#license)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Tests](#tests)
+5. [How to Contribute](#how-to-contribute)
+6. [Questions](#questions)
 
 ## Installation
 
-### Type Node index.js into the terminal and answer the prompts
+ Once Nodejs is installed, type {Node Index.js} into the terminal
 
-## Images
+## Usage
 
-### N/A
-
-## Credits
-
-### N/A
-
-### * [License](#License)
-        
-### https://img.shields.io/badge/license-$%7Blicense%7D-blue.svg
-
-### ## License
-        This project is licensed under:MIT
-
-## Features
-
-### Creates a README
-
-## How to Contribute
-
-### N/A
+### To create a ReadMe
 
 ## Tests
 
-### N/A
+### node run test
+
+
+## How to Contribute
+
+ N/A
+
+## Questions
+Questions?
+
+You can reach me by email at: nmargolis00@gmail.com
+
+or
+
+You can reach me by my github: <https://github.com/nmargolis00>
+
 

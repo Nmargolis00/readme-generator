@@ -9,6 +9,16 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input', 
+        name: 'github',
+        message: 'What is your github username?'
+    },
+    {
+        type: 'input', 
+        name: 'email',
+        message: 'What is your email?'
+    },
+    {
+        type: 'input', 
         name: 'title',
         message: 'What is the title of your project?'
     },
@@ -19,23 +29,13 @@ const questions = [
     },
     {
         type: 'input', 
-        name: 'contents',
-        message: 'Please enter a table of contents if applicable, otherwise state "N/A"'
-    },
-    {
-        type: 'input', 
         name: 'installation',
-        message: 'How is your App used?'
+        message: 'How is your App installed?',
     },
     {
         type: 'input', 
-        name: 'image',
-        message: 'Please enter any relevant images using the following format: ![title of image](/assets/images/whatever_your_filepath_is)'
-    },
-    {
-        type: 'input', 
-        name: 'credits',
-        message: 'Would you like to add any credits to anyone who worked on this project?'
+        name: 'usage',
+        message: 'How will this project be used?'
     },
     {
         type: 'list',
@@ -43,11 +43,6 @@ const questions = [
         message: "What is the App's license? Use Arrow Keys and Enter to select",
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'
         ],
-    },
-    {
-        type: 'input', 
-        name: 'features',
-        message: 'What are the features of this app?'
     },
        {
         type: 'input', 
