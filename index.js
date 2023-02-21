@@ -19,8 +19,8 @@ const questions = [
     },
     {
         type: 'input', 
-        name: 'table of contents',
-        message: 'What is the title of your project?'
+        name: 'contents',
+        message: 'Please enter a table of contents if applicable, otherwise state "N/A"'
     },
     {
         type: 'input', 
@@ -30,14 +30,34 @@ const questions = [
     {
         type: 'input', 
         name: 'image',
-        message: 'LOOK UP HOW TO MAKE THIS HAPPEN ON THE MARKDOWN'
+        message: 'Please enter any relevant images using the following format: ![title of image](/assets/images/whatever_your_filepath_is)'
+    },
+    {
+        type: 'input', 
+        name: 'credits',
+        message: 'Would you like to add any credits to anyone who worked on this project?'
     },
     {
         type: 'list',
         name: 'license',
-        message: "What is the App's license?",
+        message: "What is the App's license? Use Arrow Keys and Enter to select",
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'
         ],
+    },
+    {
+        type: 'input', 
+        name: 'features',
+        message: 'What are the features of this app?'
+    },
+       {
+        type: 'input', 
+        name: 'contribute',
+        message: 'How would one contribute to this project if they would like to?'
+    },
+       {
+        type: 'input', 
+        name: 'tests',
+        message: 'Please list any applicable tests for this project?'
     },
 ];
 
