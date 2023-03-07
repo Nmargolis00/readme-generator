@@ -1,48 +1,52 @@
-# asdf
+# README Generator
 
+## License
+        This project is licensed under:MIT
 
-
-
+![license badge](https://img.shields.io/badge/license-MIT-blue.svg)
         
 
 ## Description
 
- asdf
+ I used Nodejs and javaScript to dynamically create a README file in the terminal. I utilized javaScript and Nodejs to create backend prompts to create README Files. This practiced importing other pages, creating prompts and writing files. 
+
+ ## DEMO Link
+
+ https://watch.screencastify.com/v/tZt95kXnRRIyfJTojGGX
 
  ## Table of Contents
 
-1. 
-2. [Descriptiom](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Tests](#tests)
-5. [How to Contribute](#how-to-contribute)
-6. [Questions](#questions)
+* [License](#License)
+* [Descriptiom](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [How to Contribute](#how-to-contribute)
+* [Questions](#questions)
 
 ## Installation
 
- asdf
+ NPM Install and nodejs. You begin the prompts by opening an integrated terminal and typing node index.js into the terminal. Inquirer and Nodejs must be installed for this app
 
 ## Usage
 
-### asdf
+This app is used to create a README file directly from the terminal. If you click on the links in the table of contents, you will be directed to that section of the README which will be useful for a larger README file.
 
 ## Tests
 
-### asdf
-
+N/A
 
 ## How to Contribute
 
- asdf
+ N/A
 
 ## Questions
 Questions?
 
-You can reach me by email at: asdf
+You can reach me by email at: nmargolis00@gmail.com
 
 or
 
-You can reach me by my github: <https://github.com/asdf>
+You can reach me by my github: <https://github.com/nmargolis00>
 
 
